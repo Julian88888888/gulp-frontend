@@ -10,4 +10,4 @@ export const watch = () => {
   console.log(config.isProd);
 };
 
-const test = 1
+const name = 1

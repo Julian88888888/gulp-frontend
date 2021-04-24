@@ -8,7 +8,10 @@
     "build:prod": "gulp build --prod"
   },
   "lint-staged": {
-    "*.js": "eslint"
+    "*.js": [
+      "npm run lint:fix",
+      "git add"
+    ]
   },
   "husky": {
     "hooks": {

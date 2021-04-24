@@ -10,4 +10,4 @@ export const watch = () => {
   console.log(config.isProd);
 };
 
-const name = 7
+const name = 76

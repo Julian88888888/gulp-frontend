@@ -6,8 +6,8 @@
     "dev": "gulp watch",
     "build:dev": "gulp build",
     "build:prod": "gulp build --prod",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix"
   },
   "lint-staged": {
     "*.js": [

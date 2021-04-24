@@ -5,9 +5,7 @@
   "scripts": {
     "dev": "gulp watch",
     "build:dev": "gulp build",
-    "build:prod": "gulp build --prod",
-    "lint": "eslint ./",
-    "lint:fix": "eslint ./ --fix"
+    "build:prod": "gulp build --prod"
   },
   "lint-staged": {
     "*.js": [
@@ -17,7 +15,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm test && npm run foo"
     }
   },
   "keywords": [

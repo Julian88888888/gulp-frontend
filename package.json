@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "gulp watch",
     "build:dev": "gulp build",
-    "build:prod": "gulp build --prod",
-    "prepare": "husky install"
+    "build:prod": "gulp build --prod"
   },
   "lint-staged": {
     "*.js": "eslint"
@@ -36,7 +35,7 @@
     "eslint-config": "^0.3.0",
     "eslint-plugin-import": "^2.22.1",
     "gulp": "^4.0.2",
-    "husky": "^6.0.0",
+    "husky": "^4.3.8",
     "i": "^0.3.6",
     "lint-staged": "^10.5.4",
     "npm": "^7.6.3"

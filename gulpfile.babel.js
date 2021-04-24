@@ -10,4 +10,4 @@ export const watch = () => {
   console.log(config.isProd);
 };
 
-const name = 765434343ihd
+const name = 765434343ihdавыа

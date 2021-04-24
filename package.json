@@ -8,14 +8,11 @@
     "build:prod": "gulp build --prod"
   },
   "lint-staged": {
-    "*.js": [
-      "npm run lint:fix",
-      "git add"
-    ]
+    "*.js": "eslint"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test && npm run foo"
+      "pre-commit": "lint-staged"
     }
   },
   "keywords": [
